@@ -10,6 +10,6 @@ type ExampleType = Promise<string>
 type Result = MyAwaited<ExampleType> // string
 ```
 
-> This question is ported from the original article by @maciejsikora
+> This question is ported from the [original article](https://dev.to/macsikora/advanced-typescript-exercises-question-1-45k4) by [@maciejsikora](https://github.com/maciejsikora)
 
-This challenge was ported from Type Challenges and was authored by maciejsikora
+This challenge was ported from [Type Challenges](https://tsch.js.org/) and was authored by [maciejsikora](https://www.github.com/maciejsikora)
