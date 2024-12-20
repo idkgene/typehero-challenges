@@ -1,4 +1,4 @@
-type MyAwaited<T> = T extends Promise<infer P>
+export type MyAwaited<T> = T extends Promise<infer P>
   ? P extends Promise<any>
     ? MyAwaited<P>
     : P
